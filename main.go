@@ -40,5 +40,5 @@ func main() {
 		return
 	}
 	fmt.Println(resp)
-	fmt.Println(resp.Reservations[0].Instances[0].InstanceId)
+	fmt.Println(*resp.Reservations[0].Instances[0].InstanceId)
 }
